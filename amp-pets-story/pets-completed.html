@@ -77,15 +77,17 @@
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- Page 1 (Cat): 1 layer (vertical) -->
-      <amp-story-page id="page1">
-        <amp-story-grid-layer template="vertical">
-          <h1>Cats</h1>
-          <amp-img src="assets/cat.jpg"
+      <!-- Page 1 (Bees): 2 layers (fill + thirds) -->
+      <amp-story-page id="page2">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/bees.jpg" 
               width="720" height="1280"
               layout="responsive">
           </amp-img>
-          <q>Dogs come when they're called. Cats take a message and get back to you. --Mary Bly</q>
+        </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+            <h1 grid-area="upper-third">Bees</h1>
+            <p grid-area="lower-third">Bees declared the most important apecies on earth. They survive for more then 120,000,000 years. There are two honeybees, common sting bees (Apis) and stingless bees (Meliponini).</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -169,6 +171,18 @@
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical" class="center-text">
           <p class="banner-text" animate-in="whoosh-in-right">Pets can lower your stress levels!</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 6 (Cat): 1 layer (vertical) -->
+      <amp-story-page id="page1">
+        <amp-story-grid-layer template="vertical">
+          <h1>Cats</h1>
+          <amp-img src="assets/cat.jpg"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+          <q>Dogs come when they're called. Cats take a message and get back to you. --Mary Bly</q>
         </amp-story-grid-layer>
       </amp-story-page>
 
