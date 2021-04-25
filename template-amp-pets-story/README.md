@@ -9,9 +9,9 @@ amp-pets-story
   ├── assets/
   │   └──  images, video, audio for story
   ├── bookend.json   
-  ├── pets.html            --- Incomplete version
-  ├── pets-completed.html  --- Completed version
-  └── README.md
+  ├── [pets.html](http://stories.abelha.io/amp-pets-story/pets.html)            --- Incomplete version
+  ├── [pets-completed.html](http://stories.abelha.io/amp-pets-story/pets-completed.html)  --- Completed version
+  └── README.md (this file)
 ```
 
 ## License
