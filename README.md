@@ -2,6 +2,7 @@
 
 This folder contains the source code for a Google I/O 2016 codelab.
 
+[template-amp-carousel](/template-amp-carousel/)
 [template-pets-story](/template-amp-pets-story/pets-completed.html)
 
 ### License
